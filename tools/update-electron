@@ -27,7 +27,7 @@ download_url="https://github.com/electron/electron/releases/download/v${electron
 if [ "$BUILD_ARCH" == "loong64" ];then
   # 新世界
   electron_version="34.2.0"
-  download_url="https://github.com/darkyzhou/electron-loong64/releases/download/v${electron_version}/electron-v${electron_version}-linux-${BUILD_ARCH}.zip""
+  download_url="https://github.com/darkyzhou/electron-loong64/releases/download/v${electron_version}/electron-v${electron_version}-linux-${BUILD_ARCH}.zip"
 elif [ "$BUILD_ARCH" == "loongarch64" ];then
   # 旧世界
   electron_version="22.3.27"
